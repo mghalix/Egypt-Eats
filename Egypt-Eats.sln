@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egypt-Eats", "Egypt-Eats.csproj", "{81CFA833-A69D-47B0-AF67-ECA0441EBFBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CFA833-A69D-47B0-AF67-ECA0441EBFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CFA833-A69D-47B0-AF67-ECA0441EBFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CFA833-A69D-47B0-AF67-ECA0441EBFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CFA833-A69D-47B0-AF67-ECA0441EBFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {828658F2-1495-40DB-A9A8-236C273AFB26}
+	EndGlobalSection
+EndGlobal
