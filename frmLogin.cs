@@ -54,7 +54,10 @@ namespace Egypt_Eats
                 darkOn = true;
                 this.BackColor = Color.White;
                 this.ForeColor = Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-                //34, 41, 87
+
+                darkToggle.FlatAppearance.BorderColor = Color.White;
+                darkToggle.Image = global::Egypt_Eats.Properties.Resources.Nightmode;
+                //----------------------/
                 label1.ForeColor = Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
                 button1.BackColor = Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
                 label6.ForeColor = Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
@@ -64,9 +67,6 @@ namespace Egypt_Eats
 
                 txtUsername.ForeColor = Color.Black;
                 txtPassword.ForeColor = Color.Black;
-                //----------------------/
-                darkToggle.FlatAppearance.BorderColor = Color.White;
-                darkToggle.Image = global::Egypt_Eats.Properties.Resources.Nightmode;
                 btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
             }
             else //on dark mode
@@ -78,6 +78,19 @@ namespace Egypt_Eats
                 darkOn = false;
                 this.ForeColor = Color.GhostWhite;
                 this.BackColor = Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+                darkToggle.BackColor = System.Drawing.Color.Transparent;
+                darkToggle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+                darkToggle.FlatAppearance.BorderColor = Color.FromArgb(13, 17, 163);
+                darkToggle.Image = global::Egypt_Eats.Properties.Resources.Lightmode_v1;
+                darkToggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                darkToggle.ForeColor = System.Drawing.Color.White;
+                darkToggle.Name = "button1";
+                darkToggle.Size = new System.Drawing.Size(36, 31);
+                darkToggle.TabIndex = 0;
+                darkToggle.UseVisualStyleBackColor = false;
+                darkToggle.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+                //-------------------------------//
+
                 //63, 77, 163
                 label1.ForeColor = Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(77)))), ((int)(((byte)(163)))));
                 button1.BackColor = Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(77)))), ((int)(((byte)(163)))));
@@ -90,23 +103,12 @@ namespace Egypt_Eats
 
                 txtUsername.ForeColor = Color.Black;
                 txtPassword.ForeColor = Color.Black;
-                //label 2 & 3 rgb(164, 165, 169)
+
                 label2.ForeColor = Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
                 label3.ForeColor = Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
                 checkbxShowPass.ForeColor = Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
                 label5.ForeColor = Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
 
-                darkToggle.BackColor = System.Drawing.Color.Transparent;
-                darkToggle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-                darkToggle.FlatAppearance.BorderColor = Color.FromArgb(13, 17, 163);
-                darkToggle.Image = global::Egypt_Eats.Properties.Resources.Lightmode_v1;
-                darkToggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                darkToggle.ForeColor = System.Drawing.Color.White;
-                darkToggle.Name = "button1";
-                darkToggle.Size = new System.Drawing.Size(36, 31);
-                darkToggle.TabIndex = 0;
-                darkToggle.UseVisualStyleBackColor = false;
-                darkToggle.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
                 btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
             }
         }

@@ -44,14 +44,14 @@ namespace Egypt_Eats.Forms
             {
                 this.BackColor = Color.FromArgb(13, 17, 23);
                 this.ForeColor = Color.White;
-                white = false;
+                white = !white;
 
             }
             else
             {
                 this.BackColor = Color.White;
                 this.ForeColor = Color.Black;
-                white = true;
+                white = !white;
             }
         }
         void Toggles(object s, EventArgs args)
@@ -60,5 +60,10 @@ namespace Egypt_Eats.Forms
             mainForm.ActivateButton(b);
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            mainForm.btnDeals_Click(sender, e);
+            mainForm.ActivateButton(mainForm.btnDeals);
+        }
     }
 }

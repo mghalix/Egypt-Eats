@@ -283,26 +283,6 @@ namespace Egypt_Eats.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap McDonald_s_Golden_Arches_svg {
-            get {
-                object obj = ResourceManager.GetObject("McDonald\'s_Golden_Arches.svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap McDonald_s1 {
-            get {
-                object obj = ResourceManager.GetObject("McDonald\'s1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Nightmode {
             get {
                 object obj = ResourceManager.GetObject("Nightmode", resourceCulture);

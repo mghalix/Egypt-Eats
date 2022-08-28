@@ -70,7 +70,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 360);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1017, 633);
+            this.panel2.Size = new System.Drawing.Size(1036, 633);
             this.panel2.TabIndex = 8;
             // 
             // panel4
@@ -112,7 +112,7 @@
             this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panel8.Controls.Add(this.label6);
             this.panel8.Controls.Add(this.button6);
-            this.panel8.Location = new System.Drawing.Point(779, 350);
+            this.panel8.Location = new System.Drawing.Point(798, 350);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(230, 285);
             this.panel8.TabIndex = 7;
@@ -178,19 +178,20 @@
             this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.Dock = System.Windows.Forms.DockStyle.Top;
             this.button4.ForeColor = System.Drawing.Color.Transparent;
-            this.button4.Image = global::Egypt_Eats.Properties.Resources.McDonald_s1;
+            this.button4.Image = global::Egypt_Eats.Properties.Resources.McDonald_s;
             this.button4.Location = new System.Drawing.Point(0, 0);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(230, 250);
             this.button4.TabIndex = 3;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel5
             // 
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.button5);
-            this.panel5.Location = new System.Drawing.Point(779, 37);
+            this.panel5.Location = new System.Drawing.Point(798, 37);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(230, 285);
             this.panel5.TabIndex = 7;
@@ -247,7 +248,7 @@
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Top;
             this.button2.ForeColor = System.Drawing.Color.Transparent;
-            this.button2.Image = global::Egypt_Eats.Properties.Resources.McDonald_s1;
+            this.button2.Image = global::Egypt_Eats.Properties.Resources.McDonald_s;
             this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(230, 250);
@@ -294,7 +295,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1017, 360);
+            this.panel1.Size = new System.Drawing.Size(1036, 360);
             this.panel1.TabIndex = 0;
             // 
             // frmHome
@@ -303,7 +304,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1036, 816);
+            this.ClientSize = new System.Drawing.Size(1055, 816);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

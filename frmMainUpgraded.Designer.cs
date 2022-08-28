@@ -28,19 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.panelOptions = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.pnlDesk = new System.Windows.Forms.Panel();
-            this.darkToggle = new System.Windows.Forms.Button();
-            this.btnMaximize = new System.Windows.Forms.Button();
-            this.btnMinimize = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnOrders = new System.Windows.Forms.Button();
             this.btnDeals = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.darkToggle = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.pnlDesk = new System.Windows.Forms.Panel();
             this.panelOptions.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -57,114 +56,6 @@
             this.panelOptions.Name = "panelOptions";
             this.panelOptions.Size = new System.Drawing.Size(1052, 53);
             this.panelOptions.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.darkToggle);
-            this.panel2.Controls.Add(this.btnMaximize);
-            this.panel2.Controls.Add(this.btnMinimize);
-            this.panel2.Controls.Add(this.btnClose);
-            this.panel2.Controls.Add(this.lblTitle);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1052, 52);
-            this.panel2.TabIndex = 0;
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblTitle.Font = new System.Drawing.Font("Nirmala UI", 14.26415F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.Black;
-            this.lblTitle.Location = new System.Drawing.Point(497, 9);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(103, 30);
-            this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "Welcome";
-            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pnlDesk
-            // 
-            this.pnlDesk.AutoSize = true;
-            this.pnlDesk.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlDesk.Font = new System.Drawing.Font("Nirmala UI", 6.792453F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlDesk.Location = new System.Drawing.Point(0, 52);
-            this.pnlDesk.Name = "pnlDesk";
-            this.pnlDesk.Size = new System.Drawing.Size(1052, 752);
-            this.pnlDesk.TabIndex = 1;
-            // 
-            // darkToggle
-            // 
-            this.darkToggle.BackColor = System.Drawing.Color.Transparent;
-            this.darkToggle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.darkToggle.Cursor = System.Windows.Forms.Cursors.Default;
-            this.darkToggle.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.darkToggle.FlatAppearance.BorderSize = 0;
-            this.darkToggle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.darkToggle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.darkToggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.darkToggle.ForeColor = System.Drawing.Color.White;
-            this.darkToggle.Image = global::Egypt_Eats.Properties.Resources.Nightmode;
-            this.darkToggle.Location = new System.Drawing.Point(1007, 7);
-            this.darkToggle.Name = "darkToggle";
-            this.darkToggle.Size = new System.Drawing.Size(36, 29);
-            this.darkToggle.TabIndex = 35;
-            this.darkToggle.UseVisualStyleBackColor = false;
-            this.darkToggle.Click += new System.EventHandler(this.darkToggle_Click);
-            this.darkToggle.MouseEnter += new System.EventHandler(this.darkToggle_MouseEnter);
-            this.darkToggle.MouseLeave += new System.EventHandler(this.darkToggle_MouseLeave);
-            // 
-            // btnMaximize
-            // 
-            this.btnMaximize.FlatAppearance.BorderSize = 0;
-            this.btnMaximize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximize.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.Image = global::Egypt_Eats.Properties.Resources.titlebutton_maximize;
-            this.btnMaximize.Location = new System.Drawing.Point(45, 7);
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(24, 21);
-            this.btnMaximize.TabIndex = 34;
-            this.btnMaximize.UseVisualStyleBackColor = true;
-            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
-            this.btnMaximize.MouseEnter += new System.EventHandler(this.btnMaximize_MouseEnter);
-            this.btnMaximize.MouseLeave += new System.EventHandler(this.btnMaximize_MouseLeave);
-            // 
-            // btnMinimize
-            // 
-            this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMinimize.Image = global::Egypt_Eats.Properties.Resources.titlebutton_minimize;
-            this.btnMinimize.Location = new System.Drawing.Point(23, 7);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(24, 21);
-            this.btnMinimize.TabIndex = 33;
-            this.btnMinimize.UseVisualStyleBackColor = true;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
-            this.btnMinimize.MouseEnter += new System.EventHandler(this.btnMinimize_MouseEnter);
-            this.btnMinimize.MouseLeave += new System.EventHandler(this.btnMinimize_MouseLeave);
-            // 
-            // btnClose
-            // 
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.ForeColor = System.Drawing.Color.Transparent;
-            this.btnClose.Image = global::Egypt_Eats.Properties.Resources.titlebutton_close;
-            this.btnClose.Location = new System.Drawing.Point(3, 7);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(24, 21);
-            this.btnClose.TabIndex = 32;
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            this.btnClose.MouseEnter += new System.EventHandler(this.btnClose_MouseEnter);
-            this.btnClose.MouseLeave += new System.EventHandler(this.btnClose_MouseLeave);
             // 
             // btnSettings
             // 
@@ -251,6 +142,115 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.darkToggle);
+            this.panel2.Controls.Add(this.btnMaximize);
+            this.panel2.Controls.Add(this.btnMinimize);
+            this.panel2.Controls.Add(this.btnClose);
+            this.panel2.Controls.Add(this.lblTitle);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1052, 52);
+            this.panel2.TabIndex = 0;
+            // 
+            // darkToggle
+            // 
+            this.darkToggle.BackColor = System.Drawing.Color.Transparent;
+            this.darkToggle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.darkToggle.Cursor = System.Windows.Forms.Cursors.Default;
+            this.darkToggle.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.darkToggle.FlatAppearance.BorderSize = 0;
+            this.darkToggle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.darkToggle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.darkToggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.darkToggle.ForeColor = System.Drawing.Color.White;
+            this.darkToggle.Image = global::Egypt_Eats.Properties.Resources.Nightmode;
+            this.darkToggle.Location = new System.Drawing.Point(1007, 7);
+            this.darkToggle.Name = "darkToggle";
+            this.darkToggle.Size = new System.Drawing.Size(36, 29);
+            this.darkToggle.TabIndex = 35;
+            this.darkToggle.UseVisualStyleBackColor = false;
+            this.darkToggle.Click += new System.EventHandler(this.darkToggle_Click);
+            this.darkToggle.MouseEnter += new System.EventHandler(this.darkToggle_MouseEnter);
+            this.darkToggle.MouseLeave += new System.EventHandler(this.darkToggle_MouseLeave);
+            this.darkToggle.MouseUp += new System.Windows.Forms.MouseEventHandler(this.darkToggle_MouseUp);
+            // 
+            // btnMaximize
+            // 
+            this.btnMaximize.FlatAppearance.BorderSize = 0;
+            this.btnMaximize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaximize.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMaximize.Image = global::Egypt_Eats.Properties.Resources.titlebutton_maximize;
+            this.btnMaximize.Location = new System.Drawing.Point(45, 7);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(24, 21);
+            this.btnMaximize.TabIndex = 34;
+            this.btnMaximize.UseVisualStyleBackColor = true;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
+            this.btnMaximize.MouseEnter += new System.EventHandler(this.btnMaximize_MouseEnter);
+            this.btnMaximize.MouseLeave += new System.EventHandler(this.btnMaximize_MouseLeave);
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.Image = global::Egypt_Eats.Properties.Resources.titlebutton_minimize;
+            this.btnMinimize.Location = new System.Drawing.Point(23, 7);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(24, 21);
+            this.btnMinimize.TabIndex = 33;
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            this.btnMinimize.MouseEnter += new System.EventHandler(this.btnMinimize_MouseEnter);
+            this.btnMinimize.MouseLeave += new System.EventHandler(this.btnMinimize_MouseLeave);
+            // 
+            // btnClose
+            // 
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.ForeColor = System.Drawing.Color.Transparent;
+            this.btnClose.Image = global::Egypt_Eats.Properties.Resources.titlebutton_close;
+            this.btnClose.Location = new System.Drawing.Point(3, 7);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(24, 21);
+            this.btnClose.TabIndex = 32;
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            this.btnClose.MouseEnter += new System.EventHandler(this.btnClose_MouseEnter);
+            this.btnClose.MouseLeave += new System.EventHandler(this.btnClose_MouseLeave);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblTitle.Font = new System.Drawing.Font("Nirmala UI", 14.26415F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.Black;
+            this.lblTitle.Location = new System.Drawing.Point(497, 9);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(103, 30);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Welcome";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pnlDesk
+            // 
+            this.pnlDesk.AutoSize = true;
+            this.pnlDesk.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlDesk.Font = new System.Drawing.Font("Nirmala UI", 6.792453F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlDesk.Location = new System.Drawing.Point(0, 52);
+            this.pnlDesk.Name = "pnlDesk";
+            this.pnlDesk.Size = new System.Drawing.Size(1052, 752);
+            this.pnlDesk.TabIndex = 1;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -260,7 +260,6 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelOptions);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1052, 857);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -280,7 +279,7 @@
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Button btnOrders;
-        private System.Windows.Forms.Button btnDeals;
+        internal System.Windows.Forms.Button btnDeals;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnMaximize;

@@ -251,7 +251,6 @@ namespace Egypt_Eats
                 btnDeals.Image = ((System.Drawing.Image)(Properties.Resources.btnDeals_DarkActive));
                 btnOrders.Image = ((System.Drawing.Image)(Properties.Resources.btnOrders_DarkActive));
                 btnSettings.Image = ((System.Drawing.Image)(Properties.Resources.btnSettings_DarkActive));
-
             }
             else
             {
@@ -360,6 +359,18 @@ namespace Egypt_Eats
         private void btnMaximize_MouseLeave(object sender, EventArgs e)
         {
             btnMaximize.Image = Resources.titlebutton_maximize;
+        }
+
+        private void darkToggle_MouseUp(object sender, MouseEventArgs e)
+        {
+            //if(white)
+            //{
+            //    //darkToggle.Image = Properties.Resources.Nightmode_onHover;
+            //}
+            //else
+            //{
+            //    //darkToggle.Image = Properties.Resources.Lightmode_v1Hover;
+            //}
         }
     }
 }
