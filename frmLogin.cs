@@ -67,8 +67,8 @@ namespace Egypt_Eats
 
                 txtUsername.ForeColor = Color.Black;
                 txtPassword.ForeColor = Color.Black;
-                btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            }
+            btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
+        }
             else //on dark mode
             {
                 darkToggle.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -111,7 +111,7 @@ namespace Egypt_Eats
 
                 btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
             }
-        }
+}
 
         private void button1_Click(object sender, EventArgs e)
         {
