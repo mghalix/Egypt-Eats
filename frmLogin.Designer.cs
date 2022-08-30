@@ -39,7 +39,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnMaximize = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.darkToggle = new System.Windows.Forms.Button();
@@ -52,7 +51,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
             this.label1.Location = new System.Drawing.Point(23, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 33);
+            this.label1.Size = new System.Drawing.Size(164, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "Get Started";
             // 
@@ -62,7 +61,7 @@
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 9.818182F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(35, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.Size = new System.Drawing.Size(76, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "Username";
             // 
@@ -84,7 +83,7 @@
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 9.818182F, System.Drawing.FontStyle.Bold);
             this.label3.Location = new System.Drawing.Point(35, 201);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 20);
+            this.label3.Size = new System.Drawing.Size(73, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "Password";
             // 
@@ -110,7 +109,7 @@
             this.checkbxShowPass.Font = new System.Drawing.Font("Nirmala UI", 9.818182F, System.Drawing.FontStyle.Bold);
             this.checkbxShowPass.Location = new System.Drawing.Point(120, 254);
             this.checkbxShowPass.Name = "checkbxShowPass";
-            this.checkbxShowPass.Size = new System.Drawing.Size(135, 24);
+            this.checkbxShowPass.Size = new System.Drawing.Size(129, 23);
             this.checkbxShowPass.TabIndex = 2;
             this.checkbxShowPass.TabStop = false;
             this.checkbxShowPass.Text = "Show Password";
@@ -156,7 +155,7 @@
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 9.818182F, System.Drawing.FontStyle.Bold);
             this.label5.Location = new System.Drawing.Point(62, 392);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(169, 20);
+            this.label5.Size = new System.Drawing.Size(161, 19);
             this.label5.TabIndex = 27;
             this.label5.Text = "Don\'t Have an Account";
             // 
@@ -168,26 +167,10 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
             this.label6.Location = new System.Drawing.Point(91, 411);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(116, 20);
+            this.label6.Size = new System.Drawing.Size(111, 19);
             this.label6.TabIndex = 0;
             this.label6.Text = "Create Account";
             this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // btnMaximize
-            // 
-            this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.FlatAppearance.BorderSize = 0;
-            this.btnMaximize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximize.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.Image = global::Egypt_Eats.Properties.Resources.titlebutton_maximize;
-            this.btnMaximize.Location = new System.Drawing.Point(52, 15);
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(24, 21);
-            this.btnMaximize.TabIndex = 1;
-            this.btnMaximize.TabStop = false;
-            this.btnMaximize.UseVisualStyleBackColor = false;
-            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // btnMinimize
             // 
@@ -249,11 +232,10 @@
             // frmLogin
             // 
             this.AcceptButton = this.button1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(289, 489);
-            this.Controls.Add(this.btnMaximize);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.darkToggle);
@@ -294,6 +276,5 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMinimize;
-        private System.Windows.Forms.Button btnMaximize;
     }
 }

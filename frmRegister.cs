@@ -69,7 +69,6 @@ namespace Egypt_Eats
                 darkToggle.BackColor = Color.Transparent;
                 darkToggle.Image = global::Egypt_Eats.Properties.Resources.Nightmode;
                 darkToggle.FlatAppearance.BorderColor = Color.White;
-                btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
             }
             else //on dark page
             {
@@ -120,7 +119,6 @@ namespace Egypt_Eats
                 darkToggle.TabIndex = 0;
                 darkToggle.UseVisualStyleBackColor = false;
                 darkToggle.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-                btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
             }
         }
 

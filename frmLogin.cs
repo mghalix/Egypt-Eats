@@ -67,7 +67,6 @@ namespace Egypt_Eats
 
                 txtUsername.ForeColor = Color.Black;
                 txtPassword.ForeColor = Color.Black;
-            btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
         }
             else //on dark mode
             {
@@ -109,7 +108,6 @@ namespace Egypt_Eats
                 checkbxShowPass.ForeColor = Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
                 label5.ForeColor = Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
 
-                btnMaximize.FlatAppearance.MouseOverBackColor = Color.Transparent;
             }
 }
 
@@ -276,6 +274,5 @@ namespace Egypt_Eats
         {
             btnMinimize.Image = Properties.Resources.titlebutton_minimize;
         }
-
     }
 }
